@@ -91,7 +91,7 @@ Behavior=BHV_ConstantSpeed
 
 //----------------------------------------------
 
-Behavior = BHV_AvdColregsV19
+Behavior = BHV_AvdColregsV22
  {
    // General Behavior Parameters
    // ---------------------------
@@ -117,10 +117,10 @@ Behavior = BHV_AvdColregsV19
    // Parameters specific to this behavior
    // ------------------------------------
       completed_dist = 500              // default
-   max_util_cpa_dist = 75               // default
-   min_util_cpa_dist = 10               // default
+   max_util_cpa_dist = 80               // default
+   min_util_cpa_dist = 30               // default
     no_alert_request = false            // default
-           pwt_grade = quasi            // default
-      pwt_inner_dist = 50               // default
+           pwt_grade = linear            // default
+      pwt_inner_dist = 150               // default
       pwt_outer_dist = 200              // default
  }
